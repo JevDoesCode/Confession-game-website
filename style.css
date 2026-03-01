@@ -250,10 +250,25 @@ body {
 }
 
 @media screen and (max-width: 790px) {
+    @keyframes highlighter {
+    0% { --x: 0rem; --y: 35rem; }
+    5% { --x: 18rem; --y: 35rem; }
+    10% { --x: 35rem; --y: 35rem; }
+    20% { --x: 40rem; --y: 35rem; }
+    30% { --x: 45rem; --y: 35rem; }
+    40% { --x: 50rem; --y: 35rem; }
+    50% { --x: 55rem; --y: 35rem; }
+    60% { --x: 60rem; --y: 35rem; }
+    70% { --x: 65rem; --y: 35rem; }
+    80% { --x: 70rem; --y: 35rem; }
+    90% { --x: 75rem; --y: 35rem; }
+    100% { --x: 80rem; --y: 35rem; }
+}
+
     .contentContainer {
-        margin: 10em auto;
-        width: 40em;
-        height: 40em;
+        margin: 0 auto;
+        width: 50em;
+        height: 1080px;
     }
 
     .start {
@@ -262,7 +277,7 @@ body {
     
     .catty {
         position: absolute;
-        bottom: -5em;
+        bottom: 0em;
     }
 
     .containerTextBox {
