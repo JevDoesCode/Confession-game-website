@@ -251,18 +251,18 @@ body {
 
 @media screen and (max-width: 790px) {
     @keyframes highlighter {
-        0% { --x: 0rem; --y: 22rem; }
-        5% { --x: 18rem; --y: 22rem; }
-        10% { --x: 35rem; --y: 22rem; }
-        20% { --x: 40rem; --y: 22rem; }
-        30% { --x: 45rem; --y: 22rem; }
-        40% { --x: 50rem; --y: 22rem; }
-        50% { --x: 55rem; --y: 22rem; }
-        60% { --x: 60rem; --y: 22rem; }
-        70% { --x: 65rem; --y: 22rem; }
-        80% { --x: 70rem; --y: 22rem; }
-        90% { --x: 75rem; --y: 22rem; }
-        100% { --x: 80rem; --y: 22rem; }
+        0% { --x: 0rem; --y: 23rem; }
+        5% { --x: 18rem; --y: 23rem; }
+        10% { --x: 35rem; --y: 23rem; }
+        20% { --x: 40rem; --y: 23rem; }
+        30% { --x: 45rem; --y: 23rem; }
+        40% { --x: 50rem; --y: 23rem; }
+        50% { --x: 55rem; --y: 23rem; }
+        60% { --x: 60rem; --y: 23rem; }
+        70% { --x: 65rem; --y: 23rem; }
+        80% { --x: 70rem; --y: 23rem; }
+        90% { --x: 75rem; --y: 23rem; }
+        100% { --x: 80rem; --y: 23rem; }
     }
 
     .confession {
@@ -310,4 +310,5 @@ body {
     }
 
 }
+
 
