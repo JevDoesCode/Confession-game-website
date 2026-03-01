@@ -185,7 +185,7 @@ body {
     background-color: black;
     font-family: minecraft, 'Arial Narrow Bold', sans-serif;
 
-    background: radial-gradient(circle at var(--x) var(--y), #ffffffb7, rgb(0, 0, 0) 10rem);
+    background: radial-gradient(circle at var(--x) var(--y), #ffffff, rgb(0, 0, 0) 10rem);
     
     color: transparent;
     -webkit-text-fill-color: transparent;
@@ -310,3 +310,4 @@ body {
     }
 
 }
+
