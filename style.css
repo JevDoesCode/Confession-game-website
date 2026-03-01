@@ -264,6 +264,11 @@ body {
         90% { --x: 75rem; --y: 22rem; }
         100% { --x: 80rem; --y: 22rem; }
     }
+
+    .confession {
+            animation: highlighter 10s ease-in-out;
+    }
+    
     .contentContainer {
         margin: 10em auto;
         width: 40em;
@@ -303,4 +308,5 @@ body {
         left: 5em;
         width: 20rem;
     }
+
 }
