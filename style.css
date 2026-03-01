@@ -39,7 +39,6 @@ body {
     background: -webkit-linear-gradient(right, #000000, #000000);   
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
 .flicker {
@@ -310,5 +309,6 @@ body {
     }
 
 }
+
 
 
