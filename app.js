@@ -27,7 +27,7 @@ const startContainer = document.querySelector(".startContainer");
 
 let scriptLinesCounter = 0;
 
-const scriptLines = ["I've been thinking about it lately...", "The way you act, ung humor mo", "I've grown fond of it...", "btw, Mahilig ka ba sa pusa?", 
+const scriptLines = ["I've been thinking about it lately...", "The way you act, ung humor mo", "I've grown fond of it...", "btw mahilig ka ba sa pusa?", 
                     "Actually I've been keeping a secret...", "HALA!", "Wait lang...", "...", "Pede po ba manligaw sayo?"];
 const optionLines = ["Ay meaning ba mahilig ka saakin? HAHA", "Ay.. Same!", "YAY!!!", "Ay Cge..."];
 
@@ -154,3 +154,4 @@ cat.addEventListener("click", () => {
     }, 4000);
 
 });
+
