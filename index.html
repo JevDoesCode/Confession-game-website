@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ligaw</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- audio -->
+    <audio src="music/Djo - End of Beginning Piano Cover Sheet Music - 정현주(Hyunjoo Jung).mp3" class="music" loop autoplay></audio>
+    <audio src="music/pop sound.mp3" class="pop"></audio>
+    <audio src="music\flicker effx.mp3" class="flickEffx"></audio>
+    <audio src="music\Yippee.mp3" class="yippeEffx"></audio>
+    <audio src="music\Sad.mp3" class="sadEffx"></audio>
+
+    <main class="contentContainer">
+        <div class="flicker"></div>
+
+        <div class="startContainer">
+                <h1 class="start" onclick="scriptBtn()"><b>Start Game</b></h1>
+
+                <img src="gifs/cute.gif" alt="" class="catty">
+            </div>
+        </div>
+        
+        <div class="confession">
+            <h1>I like you Shely!</h1>
+        </div>
+
+        <div class="dialogueContainer">
+             <div class="imgContainer">
+                <img src="imgs/textbox.png" alt="" class="textBox">
+
+                <div class="containerTextBox">
+                    <p class="script"></p>
+                </div>
+
+                <div class="btnContainer">
+                    <button class="opt1" onclick="scriptBtn(0)">Oo naman!</button>
+                    <button class="opt2" onclick="scriptBtn(1)">Hindi</button>
+
+                    <button id="opt1" class="opt1" onclick="scriptBtn(2)">Oo naman!</button>
+                    <button id="opt2" class="opt2" onclick="scriptBtn(3)">Hindi</button>
+                </div>
+
+                <button class="next" onclick="scriptBtn()"><b>></b></button>
+
+                <img src="gifs/shy.gif" alt="" class="cat">
+            </div>
+        </div>
+
+        <div class="endContainer">
+            <div class="imgContainer">
+                     <div class="imgContainer">
+                <img src="imgs/textbox.png" alt="" class="textBox">
+
+                <div class="containerTextBox">
+                    <p class="script">Thanks for playing!</p>
+                </div>
+
+                <button class="next" onclick="restartbtn()"><b>Restart</b></button>
+
+                <img src="gifs/cute.gif" alt="" class="cat">
+            </div>
+        </div>
+       
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
